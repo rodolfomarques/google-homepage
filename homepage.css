@@ -1,0 +1,124 @@
+body
+	{
+		font-size: small;
+		height: 100%;
+		font-family: arial, sans-serif;
+		color:#222;
+		background-color:#fff;
+		margin: 0;
+	}
+
+form > div
+	
+	{
+		border: 0.5px solid lightgrey;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		width: 30%;
+		margin: auto;
+		padding: 0;
+		min-width: 441px;
+
+	}
+
+input
+
+	{
+		border: medium none;
+		line-height: 34px;
+		height: 34px;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		min-width: 416px;
+	}
+
+.iconesTop
+
+	{
+		vertical-align: middle;
+		display: inline-block;
+	}
+
+.app-bg
+
+	{
+		background-image: url(app.png);
+		background-size: 528px 68px;
+	}
+.appbuttom
+	
+	{
+		background-position: -132px -38px;
+		opacity: .5;
+		height: 30px;
+		width: 30px;
+	}
+
+.notbuttom
+
+	{
+		height: 30px;
+		width: 30px;
+	}
+
+#header
+	
+	{
+		top: 20px;
+		position: absolute;
+		width: 100%;
+		outline: none;
+		text-align: left;
+		z-index: 1;
+	}
+
+#icones
+
+	{
+		
+	}
+
+#logoGoogle
+	{
+		background-image: url(googlelogo_color_272x92dp.png);
+		background-size: 271px 92px;
+		height: 92px;
+		width: 271px;
+		align: left;
+	}
+
+.sublogo
+	{
+		color: #4285f4;
+		font-size: 16px;
+		font-family: roboto-regular, arial, sans-serif;
+		position: relative;
+		left: 100px;
+		top: 76px;
+		white-space: nowrap;
+	}
+
+div#formulario
+	
+	{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 980px;
+		text-align: center;
+	}
+
+.form
+	
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+#keybuttom
+
+	{
+		background-image: url(http://www.gstatic.com/inputtools/images/tia.png);
+		height: 11px;
+		width: 19px;
+	}
