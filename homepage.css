@@ -3,7 +3,7 @@ body
 		font-size: small;
 		height: 100%;
 		font-family: arial, sans-serif;
-		color:#222;
+		color:#6f6f6d;
 		background-color:#fff;
 		margin: 0;
 	}
@@ -13,24 +13,47 @@ form > div
 	{
 		border: 0.5px solid lightgrey;
 		box-sizing: border-box;
-		-moz-box-sizing: border-box;
-		width: 30%;
+		box-shadow: ;
+		padding: 5px 10px 0 16px;
+		width: 60%;
 		margin: auto;
-		padding: 0;
 		min-width: 441px;
 
 	}
 
-input
+input[type="text"]
 
 	{
 		border: medium none;
 		line-height: 34px;
 		height: 34px;
 		padding: 0;
-		margin: 0;
-		width: 100%;
+		margin: 0 5px 0 5px;
+		width: 40%;
 		min-width: 416px;
+	}
+
+input[type="submit"]
+
+	{
+		border: medium none;
+		line-height: 34px;
+		font-family: arial, sans-serif;
+		font-size: 13px;
+		font-weight: bold;
+		margin: 11px 4px;
+		padding: 0 16px;
+		min-width: 54px;
+
+	}
+
+div.button div
+
+	{
+		margin: auto;
+		margin-top: 7px;
+		vertical-align: middle;
+		width: 75px;
 	}
 
 .iconesTop
@@ -38,6 +61,15 @@ input
 	{
 		vertical-align: middle;
 		display: inline-block;
+	}
+
+.button
+
+	{
+		color: white;
+		background-color: #4583ED;
+		height: 30px;
+		width: 111px;
 	}
 
 .app-bg
@@ -58,10 +90,33 @@ input
 .notbuttom
 
 	{
-		height: 30px;
-		width: 30px;
+		height: 18px;
+		width: 18px;
+		background-position: -195px -21px;
+		background-color: rgba(0, 0, 0, 1);
+		border-radius: 30px;
+		margin-right: 10px;
 	}
 
+.center
+
+	{
+		position: absolute;
+	}
+
+.sb
+	
+	{
+		display: inline-block;
+		text-align: center;
+
+	}
+
+.ihr
+
+	{
+		padding-right: 15px;
+	}
 #header
 	
 	{
@@ -69,14 +124,17 @@ input
 		position: absolute;
 		width: 100%;
 		outline: none;
-		text-align: left;
 		z-index: 1;
+		float: right;
 	}
 
 #icones
 
 	{
-		
+		text-align: right;
+		width: 355px;
+		float: right;
+		padding-right: 10px;
 	}
 
 #logoGoogle
@@ -106,6 +164,7 @@ div#formulario
 		width: 100%;
 		max-width: 980px;
 		text-align: center;
+		z-index: 2;
 	}
 
 .form
@@ -115,10 +174,74 @@ div#formulario
 		vertical-align: middle;
 	}
 
+.formk
+
+	{
+		height: 39px;
+		padding: 0 31px;
+	}
+
+#form
+	
+	{
+		margin-top: 18px;
+	}
+
 #keybuttom
 
 	{
 		background-image: url(http://www.gstatic.com/inputtools/images/tia.png);
 		height: 11px;
 		width: 19px;
+		margin-right: 5px;
+	}
+
+#footer
+
+	{
+		font-size: 10pt;
+		background-color: #f2f2f2;
+		border-top: 1px solid #e4e4e4;
+		line-height: 40px;
+		min-width: 980px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		z-index:3;
+
+	}
+
+#fl
+	
+	{
+		float: left;
+	}
+
+.ifl
+	
+	{
+		padding-left: 27px;
+	}
+
+.iflm
+
+	{
+		padding-left: 30px;
+	}
+
+#fr
+	{
+		float: right;
+	}
+
+.ifr
+	{
+		padding-right: 27px;
+	}
+
+.ifrm
+
+	{
+		padding-right: 30px;
 	}
